@@ -1,9 +1,24 @@
-html,
-body {
-  height: 100vh;
-  width: 100vw;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #fff;
+        --background: #000000;
+        --item-background: #39546a;
+    }
 }
 
-body {
-  font-family: sans-serif;
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: #1f1f1f;
+        --background: #ececec;
+        --item-background: antiquewhite;
+    }
+}
+
+body
+{
+    background-color: var(--background);
+}
+h1
+{
+    text-align: center;
 }
