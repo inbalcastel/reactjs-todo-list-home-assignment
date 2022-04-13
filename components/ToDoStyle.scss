@@ -1,0 +1,21 @@
+@import  "../styles.css";
+
+.p-progress-spinner
+{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.todolist
+{
+    li
+    {
+        list-style: none;
+        margin-top:20px;
+        background-color: var(--background);
+        padding:10px;
+        border-radius: 10px;
+    }
+
+}
